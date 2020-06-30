@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="50.0" prefWidth="500.0" style="-fx-background-color: #ffffff;" stylesheets="@../style/style.css"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SolutionHeader">
+   <children>
+      <Button fx:id="add" layoutX="350.0" layoutY="7.0" styleClass="button_rect_green" text="Add Solution" />
+      <Button fx:id="delete" layoutX="185.0" layoutY="7.0" styleClass="button_rect_red" text="Delete Solution" />
+      <ComboBox fx:id="dropdown" layoutX="17.0" layoutY="6.0" prefWidth="150.0" styleClass="dropDown" />
+   </children>
+</AnchorPane>

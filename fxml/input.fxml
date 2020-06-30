@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="115.0" prefWidth="250.0" style="-fx-background-color: #ffffff;" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Input">
+   <children>
+      <TextField fx:id="txt" layoutX="13.0" layoutY="14.0" prefHeight="39.0" prefWidth="225.0" promptText="Keyword..." styleClass="text-input" />
+      <Button fx:id="submit" layoutX="14.0" layoutY="63.0" prefHeight="39.0" prefWidth="110.0" styleClass="button_rect_green" text="Add" />
+      <Button fx:id="cancel" layoutX="133.0" layoutY="63.0" prefHeight="39.0" prefWidth="103.0" styleClass="button_rect_red" text="Cancel" />
+   </children>
+</AnchorPane>

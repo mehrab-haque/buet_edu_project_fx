@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.shape.Rectangle?>
+<AnchorPane maxWidth="280" minWidth="280" prefWidth="280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RemovableImageView">
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+    <children>
+        <ImageView fx:id="image" fitWidth="280" />
+        <Rectangle fill="#0090ff33" width="280" fx:id="rect"></Rectangle>
+        <Button fx:id="remove" prefHeight="46.0" prefWidth="38.0" styleClass="button_rect_red_corner" stylesheets="@../style/style.css" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>

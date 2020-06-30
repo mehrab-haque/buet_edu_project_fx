@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: main.Main
+Class-Path: slf4j.jar logback-core-0.9.6.jar logback-classic-0.9.jar io-
+ 7.1.3.jar svg-7.1.3.jar hyph-7.1.3.jar pdfa-7.1.3.jar sign-7.1.3.jar fo
+ rms-7.1.3.jar kernel-7.1.3.jar layout-7.1.3.jar pdftest-7.1.3.jar barco
+ des-7.1.3.jar font-asian-7.1.3.jar io-7.1.3-javadoc.jar io-7.1.3-source
+ s.jar svg-7.1.3-javadoc.jar svg-7.1.3-sources.jar pdfa-7.1.3-javadoc.ja
+ r pdfa-7.1.3-sources.jar sign-7.1.3-javadoc.jar sign-7.1.3-sources.jar 
+ forms-7.1.3-javadoc.jar forms-7.1.3-sources.jar kernel-7.1.3-javadoc.ja
+ r kernel-7.1.3-sources.jar layout-7.1.3-javadoc.jar layout-7.1.3-source
+ s.jar pdftest-7.1.3-javadoc.jar pdftest-7.1.3-sources.jar barcodes-7.1.
+ 3-javadoc.jar barcodes-7.1.3-sources.jar styled-xml-parser-7.1.3.jar st
+ yled-xml-parser-7.1.3-javadoc.jar styled-xml-parser-7.1.3-sources.jar j
+ son-20140107.jar
+

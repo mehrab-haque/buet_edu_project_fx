@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="50.0" prefWidth="500.0" style="-fx-background-color: #ffffff;"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BoardPan">
+   <children>
+       <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#ffffff" height="50.0" width="125" />
+       <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="#ffffff" height="50.0" layoutX="125.0" width="125" />
+       <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#ffffff" height="50.0" layoutX="250.0" width="125" />
+       <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="#ffffff" height="50.0" layoutX="375.0" width="125" />
+
+      <Line fx:id="line1" endX="125" endY="50" startX="125" startY="0" stroke="#32cd32" strokeWidth="3.0" />
+       <Line fx:id="line2" endX="250" endY="50" startX="250" startY="0" stroke="#32cd32" strokeWidth="3.0" />
+       <Line fx:id="line3" endX="375" endY="50" startX="375" startY="0" stroke="#32cd32" strokeWidth="3.0" />
+       <Line fx:id="lineH" endX="500" endY="0" startX="0" startY="0" stroke="#32cd32" strokeWidth="6.0" />
+
+      <AnchorPane fx:id="anchorPane" layoutX="0" layoutY="0" prefHeight="50.0" prefWidth="500.0" />
+   </children>
+</AnchorPane>

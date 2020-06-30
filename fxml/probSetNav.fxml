@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProbSetNav">
+   <children>
+      <Button fx:id="save" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" styleClass="button_rect_green" text="Save" />
+      <Button fx:id="open" layoutX="106.0" layoutY="8.0" mnemonicParsing="false" styleClass="button_rect_red" text="Open" />
+      <Button fx:id="submit" layoutX="197.0" layoutY="8.0" mnemonicParsing="false" styleClass="button_rect_skyblue" text="Submit" />
+   </children>
+</AnchorPane>

@@ -223,7 +223,7 @@
                   </ComboBox>
                </children>
             </VBox>
-            <Label layoutX="20.0" layoutY="69.0" styleClass="grad_txt_1" text="Time Limit (Optional)">
+            <Label layoutX="20.0" layoutY="69.0" styleClass="grad_txt_1" text="Author">
                <font>
                   <Font size="14.0" />
                </font>
@@ -231,7 +231,7 @@
                   <Insets top="20.0" />
                </VBox.margin>
             </Label>
-            <TextField fx:id="time" layoutX="20.0" layoutY="94.0" maxWidth="280.0" minWidth="280.0" prefWidth="280.0" promptText="Minute(s)" styleClass="text-input">
+            <TextField fx:id="author" layoutX="20.0" layoutY="94.0" maxWidth="280.0" minWidth="280.0" prefWidth="280.0" promptText="Author Name" styleClass="text-input">
                <padding>
                   <Insets bottom="8.0" top="8.0" />
                </padding>

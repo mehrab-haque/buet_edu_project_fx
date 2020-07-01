@@ -57,7 +57,7 @@ public class ProblemSet {
         if(!probForm.series.getText().isEmpty())outputData.put("series",probForm.series.getText());
         if(!probForm.description.getText().isEmpty())outputData.put("description",probForm.description.getText());
         if(!probForm.statement.getText().isEmpty())outputData.put("statement",probForm.statement.getText());
-        if(!probForm.time.getText().isEmpty())outputData.put("time",Integer.parseInt(probForm.time.getText()));
+        if(!probForm.author.getText().isEmpty())outputData.put("author",probForm.author.getText());
         if(!probForm.restrictions.getText().isEmpty())outputData.put("restrictions",probForm.restrictions.getText());
         if(!probForm.explanation.getText().isEmpty())outputData.put("explanation",probForm.explanation.getText());
         if(probForm.category.getSelectionModel().getSelectedIndex()!=-1)outputData.put("category",probForm.category.getSelectionModel().getSelectedIndex());
@@ -250,7 +250,7 @@ public class ProblemSet {
         if(data.has("statement"))probForm.statement.setText(data.getString("statement"));
         if(data.has("restrictions"))probForm.restrictions.setText(data.getString("restrictions"));
         if(data.has("explanation"))probForm.explanation.setText(data.getString("explanation"));
-        if(data.has("time"))probForm.time.setText(String.valueOf(data.getInt("time")));
+        if(data.has("author"))probForm.author.setText(data.getString("author"));
         if(data.has("difficulty"))probForm.difficulty.getSelectionModel().select(data.getInt("difficulty"));
         if(data.has("category"))probForm.category.getSelectionModel().select(data.getInt("category"));
         if(data.has("ans_type"))probForm.ansType.getSelectionModel().select(data.getInt("ans_type"));

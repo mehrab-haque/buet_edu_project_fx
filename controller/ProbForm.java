@@ -30,7 +30,7 @@ public class ProbForm implements Initializable {
     @FXML public Button addOptionBtn;
     @FXML public VBox txtVBox;
     @FXML public TextField ansTxt;
-    @FXML public TextField time;
+    @FXML public TextField author;
     @FXML public TextArea restrictions;
     @FXML public TextArea explanation;
     @FXML public ComboBox<String> ansOption;
@@ -67,15 +67,6 @@ public class ProbForm implements Initializable {
                 mcqVBox.setVisible(true);
                 txtVBox.setManaged(false);
                 mcqVBox.setManaged(true);
-            }
-        });
-        time.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue,
-                                String newValue) {
-                if (!newValue.matches("\\d*")) {
-                    time.setText(newValue.replaceAll("[^\\d]", ""));
-                }
             }
         });
     }

@@ -108,6 +108,9 @@ public class NewProblem {
             else if(!data.has("title")){
                 Toast.makeText(stage,"Enter title",1500,500,500);
             }
+            else if(!data.has("author")){
+                Toast.makeText(stage,"Enter author's name",1500,500,500);
+            }
             else if(!data.has("series")){
                 Toast.makeText(stage,"Enter series name",1500,500,500);
             }
